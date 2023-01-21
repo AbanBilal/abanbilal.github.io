@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!--Dont you dare give up on this!-->
+    <title>Abans First Website</title>
+    <meta charset="UTF-8"> <meta name="description" content="First website for practice!"> 
+    <meta name="keywords" content="HTML, Beginner, Blog, Practice"> <meta name="author" content="Aban Bilal">
+    <meta name="viewport" content="width-device">
+    <meta http-equiv="refresh" content="100">
+</head>
+
+<body style="background-color: brown;">
+
+    <h1 style="color: burlywood; font-style: italic;text-align: center; font-family: Arial, Helvetica, sans-serif;">Welcome!</h1>
+    <hr>
+
+    <marquee direction="right" style="background-color:burlywood ; color: brown; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">KOI NAHI AGAR TERA. TO MERI JAAN KHUDA HAI</marquee><br>
+    <div style="font-size: larger;">
+    <p style="color: whitesmoke;">Click 
+        <a href="https://www.youtube.com/@BroCodez" target=_blank title="This will take you to the YT Channel">
+            here
+        </a>
+        to see where im learning. <br>
+    </div>
+        <iframe style="border: 0;" src="https://www.accuweather.com/en/pk/lahore/260622/weather-forecast/260622" width="750" height="600" ></iframe><br>
+    <br>
+    <div style="font-size: larger; color: whitesmoke;">
+        <a href="mailto:abanthebilal@gmail.com" title="Will be redirected to my Email">
+            <button style="background-color: blue;color: #20abab; border: radius 5px;">Mail me here!</button> 
+        </a>
+    <br>
+    </div>
+    
+    <a href="https://slang.net/meaning/hot" target=_blank>
+    <img src="/Images/Jet.jpg" height="400" alt="This is me in a Ship!" title="Aban looking Hot inside a Ship!">
+    </a>
+    <br>
+    This is me in a Ship!
+    
+    <br><br><br>
+    
+    <audio controls loop autoplay muted>
+        <source src="/Audio/[YT2mp3.info] - Arcade x Kabhi Jo Badal Barse (Mashup) _ Full version _ English x Hindi _ By KMslaG.mp3">
+        <source src="/Audio/[YT2mp3.info] - Kala Chashma _ Baar Baar Dekho _ Sidharth M Katrina K _ Prem.mp3">
+        This browser does not support HTML5 audio.
+    </audio>
+    
+    </p>
+
+    <video controls muted loop height="400" src="/Video/EK4(1).mp4">
+    </video><br>
+    This is an edit I made.
+    
+    <div style="background-color: #20abab; color: red; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <h4>What I used to make this?</h4>
+    <ul>
+        <li>My laptop</li>
+        <li>Video Editor</li>
+        <li>My hands</li>
+        <li>My brain</li>
+    </ul>
+
+    <dl>
+        <dt>HTML</dt>
+            <dd>Structure to Webpage</dd>
+        <dt>CSS</dt>
+            <dd>Adds style to webpage</dd>
+        <dt>JAVASCRIPT</dt>
+            <dd>Adds functionality to webpage!</dd>
+    </dl>
+    </div>
+   
+    <h3>
+    <table bgcolor="black" width="700">
+        <tr bgcolor="grey" align="left">
+            <th width="100">Monday</th> <th width="100">Tuesday</th> <th width="100">Wednesday</th>
+            <th width="100">Thursday</th> <th width="100">Friday</th> <th width="100">Saturday</th> <th width="100">Sunday</th>
+        </tr>
+        <tr bgcolor="grey" align="center">
+            <td>Grinding</td> <td>Grinding</td> <td>Grinding</td>
+            <td>Grinding</td> <td>Grinding</td> <td>Grinding</td> <td>Grinding</td>
+        </tr>
+    </table>
+    
+</h3>
+
+<button onclick="doSomething()" style="background-color: black; color: aliceblue;">Click Me!</button>
+<p id="lol">LOR DA PAWA!</p>
+<script>
+    function doSomething(){
+        document.getElementById("lol").innerHTML = "AKHTAR LAWA";
+    }
+</script>
+
+<form style="background-color: aliceblue;">
+    <div>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Akhtar" required>  
+    </div>
+
+    <br>
+
+    <div>
+    <label for="lname">Last Name: </label>
+    <input type="text" id="lname" name="lname" placeholder="Lawa" required> 
+    </div>
+
+    <br>
+
+    <div>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" required maxlength="12" required> 
+    </div>
+
+    <br>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="aklawa@gmail.com">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="phone">Contact:</label>
+        <input type="tel" id="phone" name="phone">
+    </div>
+
+    <br> 
+
+    <div>
+        <label for="date">DOB:</label>
+        <input type="date" name="date" id="date">
+    </div>
+    
+    <br>
+
+    <div>
+        <label for="quantity">quantity</label>
+        <input type="number" name="quantity" id="quantity" min="0" max="99" value="1">
+    </div>
+
+    <br>
+
+    <div style="background-color: aqua; font-size: larger;" >
+        <label>Kesi lagi site?</label>
+
+        <br>
+
+        <label for="kamaal">Kamaal</label>
+        <input type="radio" id="kamaal" name="title">
+
+        <label for="mid">Achi hai</label>
+        <input type="radio" id="mid" name="title">
+
+        <label for="meh">Sai hai bs</label>
+        <input type="radio" id="meh" name="title">
+
+    </div>
+
+    <br>
+
+    <div>
+        <label for="payment">Payment</label>
+        <select id="payment" name="payment">
+            <option>Jazz Cash</option>
+            <option>EasyPaisa</option>
+            <option>☝️☝️Mein gareeb hu!☝️☝️</option>
+    </div>
+    <div>
+        <input type="reset">
+    </div>
+
+    <br>
+
+    <div>
+        <input type="submit">
+    </div>
+
+
+
+</form>
+</body>
+
+
+</html>
