@@ -5,59 +5,44 @@
 <head>
     <!--Dont you dare give up on this!-->
     <title>Abans First Website</title>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8"> <meta name="description" content="First website for practice!"> 
     <meta name="keywords" content="HTML, Beginner, Blog, Practice"> <meta name="author" content="Aban Bilal">
     <meta name="viewport" content="width-device">
-    <meta http-equiv="refresh" content="100">
+    <meta http-equiv="refresh" content="360">
+    <script src="https://kit.fontawesome.com/477f425d51.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Unbounded:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-color: brown;">
+<body>
 
-    <h1 style="color: burlywood; font-style: italic;text-align: center; font-family: Arial, Helvetica, sans-serif;">Welcome!</h1>
-    <hr>
+    <h1>Aban Bilal</h1>
+    <h1 id="wel">Welcome to my website!</h1>
 
-    <marquee direction="right" style="background-color:burlywood ; color: brown; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">KOI NAHI AGAR TERA. TO MERI JAAN KHUDA HAI</marquee><br>
+    <marquee direction="right">KOI NAHI AGAR TERA. TO MERI JAAN KHUDA HAI</marquee><br>
+    
+    <i class="fa-brands fa-teamspeak"></i>
+
     <div style="font-size: larger;">
-    <p style="color: whitesmoke;">Click 
+    <p>Click 
         <a href="https://www.youtube.com/@BroCodez" target=_blank title="This will take you to the YT Channel">
             here
         </a>
         to see where im learning. <br>
     </div>
-        <iframe style="border: 0;" src="https://www.accuweather.com/en/pk/lahore/260622/weather-forecast/260622" width="750" height="600" ></iframe><br>
+
     <br>
-    <div style="font-size: larger; color: whitesmoke;">
-        <a href="mailto:abanthebilal@gmail.com" title="Will be redirected to my Email">
-            <button style="background-color: blue;color: #20abab; border: radius 5px;">Mail me here!</button> 
-        </a>
-    <br>
+
     </div>
-    
-    <a href="https://slang.net/meaning/hot" target=_blank>
-    <img src="/Images/Jet.jpg" height="400" alt="This is me in a Ship!" title="Aban looking Hot inside a Ship!">
-    </a>
-    <br>
-    This is me in a Ship!
-    
-    <br><br><br>
-    
-    <audio controls loop autoplay muted>
-        <source src="/Audio/[YT2mp3.info] - Arcade x Kabhi Jo Badal Barse (Mashup) _ Full version _ English x Hindi _ By KMslaG.mp3">
-        <source src="/Audio/[YT2mp3.info] - Kala Chashma _ Baar Baar Dekho _ Sidharth M Katrina K _ Prem.mp3">
-        This browser does not support HTML5 audio.
-    </audio>
     
     </p>
 
-    <video controls muted loop height="400" src="/Video/EK4(1).mp4">
-    </video><br>
-    This is an edit I made.
     
-    <div style="background-color: #20abab; color: red; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <div id="div2">
     <h4>What I used to make this?</h4>
     <ul>
         <li>My laptop</li>
-        <li>Video Editor</li>
+        <li>VS Code</li>
         <li>My hands</li>
         <li>My brain</li>
     </ul>
@@ -73,12 +58,13 @@
     </div>
    
     <h3>
-    <table bgcolor="black" width="700">
-        <tr bgcolor="grey" align="left">
+        <p>My Schedule</p>
+    <table id="table1" width="700">
+        <tr id="row" align="left">
             <th width="100">Monday</th> <th width="100">Tuesday</th> <th width="100">Wednesday</th>
             <th width="100">Thursday</th> <th width="100">Friday</th> <th width="100">Saturday</th> <th width="100">Sunday</th>
         </tr>
-        <tr bgcolor="grey" align="center">
+        <tr id="row" align="center">
             <td>Grinding</td> <td>Grinding</td> <td>Grinding</td>
             <td>Grinding</td> <td>Grinding</td> <td>Grinding</td> <td>Grinding</td>
         </tr>
@@ -86,15 +72,15 @@
     
 </h3>
 
-<button onclick="doSomething()" style="background-color: black; color: aliceblue;">Click Me!</button>
 <p id="lol">LOR DA PAWA!</p>
+<button id="button2" onclick="doSomething()">Click Me!</button>
 <script>
     function doSomething(){
         document.getElementById("lol").innerHTML = "AKHTAR LAWA";
     }
 </script>
 
-<form style="background-color: aliceblue;">
+<form>
     <div>
     <label for="fname">First Name:</label>
     <input type="text" id="fname" name="fname" placeholder="Akhtar" required>  
@@ -144,7 +130,7 @@
 
     <br>
 
-    <div style="background-color: aqua; font-size: larger;" >
+    <div id="div3">
         <label>Kesi lagi site?</label>
 
         <br>
@@ -182,6 +168,23 @@
 
 
 </form>
+<hr>
+<br>
+<div id="contact">
+    <p>Contact me:</p>
+    <p id="p2"><i class="fa-solid fa-phone"></i> 0323-4208879</p>
+
+    <p id="p2">
+        <a id="insta" href="https://www.instagram.com/aban_bilal/" target="_blank">
+        <i class="fa-brands fa-instagram"></i> @aban_bilal
+        </a>
+    </p>
+    <p id="p2">
+        <a href="mailto:abanthebilal@gmail.com">
+        <i class="fa-solid fa-envelope"> abanthebilal@gmail.com</i>
+        </a>
+    </p>
+</div>
 </body>
 
 
