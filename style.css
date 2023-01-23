@@ -1,0 +1,169 @@
+body{
+    background:linear-gradient(to right, #9c1fb5, #a498a6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: whitesmoke;
+    font-style:italic;
+    text-align: center;
+    font-family: "Unbounded", sans-serif;
+    text-shadow: 0px 7px 5px black;
+
+    animation: slide;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+#wel{
+    color: whitesmoke;
+    font-style:italic;
+    text-align: center;
+    font-family: "Unbounded", sans-serif;
+    text-shadow: 0px 7px 5px black;
+
+    animation: opacity;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+
+}
+
+@keyframes opacity{
+    from{opacity: 0; margin-right: 80%;}
+    to{opacity: 1; margin-right: 0%;}
+}
+
+@keyframes slide{
+    from{opacity: 0; margin-left: 80%;}
+    to{opacity: 1; margin-left: 0%;}
+}
+
+p{
+    text-decoration:underline;
+    padding: auto;
+    color: whitesmoke;
+    font-family: "Unbounded";
+    font-size: 20px;
+}
+
+marquee{
+    background-color:white;
+    color: #9c1fb5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#div1{
+    font-size: larger;
+    color: whitesmoke;
+}
+
+#div2{
+    border: 5px solid;
+    width: 350px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: whitesmoke;
+    font-family:"Unbounded", 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    border-style: outset;
+    padding: 15px;
+}
+
+#div3{
+    font-size: larger;
+}
+
+#button1{
+    background-color: white;
+    color: #9c1fb5;
+    border: radius 5px;
+    font-size: 15px;
+}
+
+#button2{
+    background-color: black;
+    color: aliceblue;
+}
+
+#table1{
+    font-family: "Oswald";
+    background-color:#9c1fb5 ;
+}
+
+#row{
+    background-color: whitesmoke;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Oswald";
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 25px;
+    border: 5px solid;
+    width: 250px;
+    height: 485px;
+}
+
+#p2{
+    font-size: medium;
+    text-decoration: none;
+}
+#contact{
+    background:linear-gradient(to right, black, gray);
+    border: 1px solid;
+    height: 200px;
+    width: 96.7%;
+    position:static ;
+    bottom:0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fa-phone{
+    color: white ;
+    transform: scale(1, 1);
+}
+.fa-instagram{
+    color: #cc3999;
+}
+
+#insta{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-envelope{
+    color: whitesmoke
+}
+
+.fa-envelope{
+    transform: none;
+}
+
+.fa-teamspeak{
+    padding-left: 45%;
+    font-size: 90px;
+    color: white;
+
+    animation: opacity;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes color{
+    20%{color: blue}
+    40%{color:aqua;}
+    60%{color: red;}
+    80%{color: black;}
+}
+.fa-teamspeak:hover{
+    animation: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
